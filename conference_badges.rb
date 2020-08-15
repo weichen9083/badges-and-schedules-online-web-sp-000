@@ -13,6 +13,13 @@ x =[]
   x.flatten
 end 
 
+def assign_rooms(array_name)
+  x = []
+  x << array_name.map do |name|
+    "Hello, #{name}! You'll be assigned to room "
+    
+  
+end 
 
 
 
