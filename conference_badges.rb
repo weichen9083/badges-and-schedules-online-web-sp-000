@@ -10,7 +10,7 @@ x =[]
   x << array_name.map do |name|
     badge_maker(name)
   end 
-  x
+  x.flatten
 end 
 
 
