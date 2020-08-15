@@ -19,7 +19,10 @@ def assign_rooms(array_name)
   x<< "Hello, #{name}! You'll be assigned to room #{index+1}!"
   end 
   x
-    
+  
+end
+
+def printer 
   
 end 
 
