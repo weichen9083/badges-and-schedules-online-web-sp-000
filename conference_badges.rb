@@ -8,8 +8,8 @@ end
 def batch_badge_creator(array_name)
   
   array_name.map do |name|
-    x = badge_maker(name)
-    x
+    name = badge_maker(name)
+    
   end 
    array_name
 end 
